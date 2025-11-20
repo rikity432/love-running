@@ -51,11 +51,14 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Main content */
 main {
     background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
+/* Footer */
 footer {
     background-color:orange;
 }
